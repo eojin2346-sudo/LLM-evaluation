@@ -1,0 +1,1427 @@
+[
+  {
+    "id": 1,
+    "question": "(주)상공은 20×1년 1월 1일에 임대수익을 얻을 목적으로 건물을 ￦150,000에 취득하였다. 동 건물의 내용연수는 10년이고 잔존가치는 없는 것으로 추정하였다. 20×1년 12월 31일 동 건물의 공정가치는 ￦140,000이다. 20×1년도에 (주)상공이 투자부동산에 대해 원가모형을 적용할 경우에 당기순이익이 50,000이라면 공정가치모형을 적용할 경우 당기순이익은 얼마인가? (단, ㈜상공은 원가모형 적용 시 건물은 정액법으로 감가상각한다.)\n\n보기:\n  A) ￦40,000\n  B) ￦45,000\n  C) ￦50,000\n  D) ￦55,000",
+    "category": "accounting",
+    "supercategory": "HUMSS",
+    "subset": "Accounting",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.25,
+    "original_data": {
+      "question": "(주)상공은 20×1년 1월 1일에 임대수익을 얻을 목적으로 건물을 ￦150,000에 취득하였다. 동 건물의 내용연수는 10년이고 잔존가치는 없는 것으로 추정하였다. 20×1년 12월 31일 동 건물의 공정가치는 ￦140,000이다. 20×1년도에 (주)상공이 투자부동산에 대해 원가모형을 적용할 경우에 당기순이익이 50,000이라면 공정가치모형을 적용할 경우 당기순이익은 얼마인가? (단, ㈜상공은 원가모형 적용 시 건물은 정액법으로 감가상각한다.)",
+      "choices": [
+        "￦40,000",
+        "￦45,000",
+        "￦50,000",
+        "￦55,000"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "question": "주식회사 등의 외부감사에 관한 법률 상 기업의 재무제표 작성 책임이 있는 자는?\n\n보기:\n  A) 회사의 대표이사와 회계담당 임원(회계담당 임원이 없는 경우에는 회계업무를 집행하는 직원)\n  B) 주주 및 채권자\n  C) 공인회계사\n  D) 금융감독원",
+    "category": "accounting",
+    "supercategory": "HUMSS",
+    "subset": "Accounting",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "주식회사 등의 외부감사에 관한 법률 상 기업의 재무제표 작성 책임이 있는 자는?",
+      "choices": [
+        "회사의 대표이사와 회계담당 임원(회계담당 임원이 없는 경우에는 회계업무를 집행하는 직원)",
+        "주주 및 채권자",
+        "공인회계사",
+        "금융감독원"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "question": "상각 후원가측정금융부채로 분류하는 사채의 회계처리에 대한 설명으로 옳지 않은 것은?\n\n보기:\n  A) 사채 발행 시 사채 발행비가 발생한 경우의 유효이자율은 사채 발행비가 발생하지 않는 경우보다 높다.\n  B) 사채의 액면이 자율이 시장이 자율보다 낮은 경우 사채를 할인 발행하게 된다.\n  C) 사채를 할증발행한 경우 사채의 장부 금액은 시간이 흐를수록 감소한다.\n  D) 사채의 할인발행과 할증발행의 경우 사채 발행차금상각액이 모두 점차 감소한다.",
+    "category": "accounting",
+    "supercategory": "HUMSS",
+    "subset": "Accounting",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "상각 후원가측정금융부채로 분류하는 사채의 회계처리에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "사채 발행 시 사채 발행비가 발생한 경우의 유효이자율은 사채 발행비가 발생하지 않는 경우보다 높다.",
+        "사채의 액면이 자율이 시장이 자율보다 낮은 경우 사채를 할인 발행하게 된다.",
+        "사채를 할증발행한 경우 사채의 장부 금액은 시간이 흐를수록 감소한다.",
+        "사채의 할인발행과 할증발행의 경우 사채 발행차금상각액이 모두 점차 감소한다."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "question": "금융자산의 분류에 대한 내용이다. 옳지 않은 것은?\n\n보기:\n  A) 금융자산은 사업모형 및 계약상 현금흐름 특성 모두에 근거하여 후속적으로 상각후원가, 기타포괄손익-공정가치, 당기손익-공정가치로 측정되도록 분류한다.\n  B) 계약상 현금흐름을 수취하기 위해 보유하는 것이 목적인 사업모형 하에서 금융자산을 보유하면서, 동시에 금융자산의 계약 조건에 따라 특정일에 원리금 지급만으로 구성되어 있는 현금흐름이 발생하는 경우에는'당기손익-공정가치측정 금융자산'으로 분류한다.\n  C) 계약상 현금흐름의 수취와 금융자산의 매도 둘 다를 통해 목적을 이루는 사업모형 하에서 금융자산을 보유하면서, 동시에 금융자산의 계약조건에 따라 특정일에 원리금 지급만으로 구성되어 있는 현금흐름이 발생하는 경우에는'기타포괄손익-공정가치 측정 금융자산'으로 분류한다.\n  D) 지분상품에 대한 투자로 단기매매항목이 아니고 사업결합에서 취득자가 인식하는 조건부대가가 아닌 지분상품으로 최초 인식시점에 후속적인 공정가치 변동을 기타포괄손익으로 표시하기로 한 경우에는'기타포괄손익-공정가치 측정 지분 상품'으로 분류한다.",
+    "category": "accounting",
+    "supercategory": "HUMSS",
+    "subset": "Accounting",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.44,
+    "original_data": {
+      "question": "금융자산의 분류에 대한 내용이다. 옳지 않은 것은?",
+      "choices": [
+        "금융자산은 사업모형 및 계약상 현금흐름 특성 모두에 근거하여 후속적으로 상각후원가, 기타포괄손익-공정가치, 당기손익-공정가치로 측정되도록 분류한다.",
+        "계약상 현금흐름을 수취하기 위해 보유하는 것이 목적인 사업모형 하에서 금융자산을 보유하면서, 동시에 금융자산의 계약 조건에 따라 특정일에 원리금 지급만으로 구성되어 있는 현금흐름이 발생하는 경우에는'당기손익-공정가치측정 금융자산'으로 분류한다.",
+        "계약상 현금흐름의 수취와 금융자산의 매도 둘 다를 통해 목적을 이루는 사업모형 하에서 금융자산을 보유하면서, 동시에 금융자산의 계약조건에 따라 특정일에 원리금 지급만으로 구성되어 있는 현금흐름이 발생하는 경우에는'기타포괄손익-공정가치 측정 금융자산'으로 분류한다.",
+        "지분상품에 대한 투자로 단기매매항목이 아니고 사업결합에서 취득자가 인식하는 조건부대가가 아닌 지분상품으로 최초 인식시점에 후속적인 공정가치 변동을 기타포괄손익으로 표시하기로 한 경우에는'기타포괄손익-공정가치 측정 지분 상품'으로 분류한다."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "question": "재무회계개념체계에서 제시한 재무제표의 목적으로 옳지 않은 것은?\n\n보기:\n  A) 광범위한 정보이용자의 경제적 의사결정에 유용한 정보제공\n  B) 재무보고목적 달성에 유용한 재무회계의 기초개념 제공\n  C) 장래 통제하게 될 가능성이 높은 경제적 자원의 잠재적 변동 가능성을 평가하는데 유용한 정보 제공\n  D) 기업의 현금 및 현금성자산의 창출능력과 그 시기 및 확실성에 대한 평가에 유용한 정보 제공",
+    "category": "accounting",
+    "supercategory": "HUMSS",
+    "subset": "Accounting",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "재무회계개념체계에서 제시한 재무제표의 목적으로 옳지 않은 것은?",
+      "choices": [
+        "광범위한 정보이용자의 경제적 의사결정에 유용한 정보제공",
+        "재무보고목적 달성에 유용한 재무회계의 기초개념 제공",
+        "장래 통제하게 될 가능성이 높은 경제적 자원의 잠재적 변동 가능성을 평가하는데 유용한 정보 제공",
+        "기업의 현금 및 현금성자산의 창출능력과 그 시기 및 확실성에 대한 평가에 유용한 정보 제공"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "question": "산업재해보상보험법에 관한 설명으로 옳은 것은?\n\n보기:\n  A) 「산업재해보상보험법」은 가구 내 고용활동에는 적용되지 않는다.\n  B) 「산업재해보상보험법」에 따른 산업재해보상보험 사업은 보건복지부장관이 관장한다.\n  C) 근로자의 업무와 상당인과관계가 없는 재해도 업무상 재해로 인정된다.\n  D) 사망한 자의 사실혼 관계에 있는 배우자는 유족급여 대상이 아니다.",
+    "category": "law",
+    "supercategory": "HUMSS",
+    "subset": "Law",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": 0.5292,
+    "original_data": {
+      "question": "산업재해보상보험법에 관한 설명으로 옳은 것은?",
+      "choices": [
+        "「산업재해보상보험법」은 가구 내 고용활동에는 적용되지 않는다.",
+        "「산업재해보상보험법」에 따른 산업재해보상보험 사업은 보건복지부장관이 관장한다.",
+        "근로자의 업무와 상당인과관계가 없는 재해도 업무상 재해로 인정된다.",
+        "사망한 자의 사실혼 관계에 있는 배우자는 유족급여 대상이 아니다."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "question": "경비업법령상 양벌규정이 적용되는 경우에 해당하지 않는 것은? (단, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주의와 감독을 게을리하지 아니한 경우는 고려하지 않음)\n\n보기:\n  A) 경비업자의 경비원 채용 시 부적격자 등을 채용하도록 관여한 도급인\n  B) 배치허가를 받지 아니하고 경비원을 배치한 자\n  C) 허가를 받지 아니하고 경비업을 영위한 자\n  D) 경비업무의 범위를 벗어난 행위를 한 경비원",
+    "category": "law",
+    "supercategory": "HUMSS",
+    "subset": "Law",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.514,
+    "original_data": {
+      "question": "경비업법령상 양벌규정이 적용되는 경우에 해당하지 않는 것은? (단, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주의와 감독을 게을리하지 아니한 경우는 고려하지 않음)",
+      "choices": [
+        "경비업자의 경비원 채용 시 부적격자 등을 채용하도록 관여한 도급인",
+        "배치허가를 받지 아니하고 경비원을 배치한 자",
+        "허가를 받지 아니하고 경비업을 영위한 자",
+        "경비업무의 범위를 벗어난 행위를 한 경비원"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "question": "｢화재예방, 소방시설 설치·유지 및 안전관리에 관한 법률｣ 및 같은법 시행령상 소방특별조사에 관한 설명으로 옳지 않은 것은?\n\n보기:\n  A) 개인의 주거에 대한 소방특별조사는 관계인의 승낙이 있거나 화재발생의 우려가 뚜렷하여 긴급한 필요가 있는 때에 한정한다.\n  B) 소방청장, 소방본부장 또는 소방서장은 소방특별조사를 하려면 7일 전에 관계인에게 조사대상, 조사기간 및 조사사유 등을 서면으로 알려야 한다.\n  C) 소방청장, 소방본부장 또는 소방서장은 소방특별조사의 대상을 객관적이고 공정하게 선정하기 위하여 필요하면 소방특별조사위원회를 구성하여 소방특별조사 대상을 선정할 수 있다.\n  D) 소방특별조사위원회는 위원장 1명을 포함한 7명 이내의 위원으로 성별을 고려하여 구성한다.",
+    "category": "law",
+    "supercategory": "HUMSS",
+    "subset": "Law",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.4328,
+    "original_data": {
+      "question": "｢화재예방, 소방시설 설치·유지 및 안전관리에 관한 법률｣ 및 같은법 시행령상 소방특별조사에 관한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "개인의 주거에 대한 소방특별조사는 관계인의 승낙이 있거나 화재발생의 우려가 뚜렷하여 긴급한 필요가 있는 때에 한정한다.",
+        "소방청장, 소방본부장 또는 소방서장은 소방특별조사를 하려면 7일 전에 관계인에게 조사대상, 조사기간 및 조사사유 등을 서면으로 알려야 한다.",
+        "소방청장, 소방본부장 또는 소방서장은 소방특별조사의 대상을 객관적이고 공정하게 선정하기 위하여 필요하면 소방특별조사위원회를 구성하여 소방특별조사 대상을 선정할 수 있다.",
+        "소방특별조사위원회는 위원장 1명을 포함한 7명 이내의 위원으로 성별을 고려하여 구성한다."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "question": "버제스(Burgess)의 동심원이론에서 범죄가 가장 많이 발생하는 곳은?\n\n보기:\n  A) 통근지대\n  B) 전이지대\n  C) 노동자 주거지대\n  D) 중산층 주거지대",
+    "category": "law",
+    "supercategory": "HUMSS",
+    "subset": "Law",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.7168000000000001,
+    "original_data": {
+      "question": "버제스(Burgess)의 동심원이론에서 범죄가 가장 많이 발생하는 곳은?",
+      "choices": [
+        "통근지대",
+        "전이지대",
+        "노동자 주거지대",
+        "중산층 주거지대"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "question": "민법상 임의대리에 관한 설명으로 옳지 않은 것은?\n\n보기:\n  A) 의사표시의 하자는 본인을 기준으로 판단한다.\n  B) 대리인은 행위능력자임을 요하지 아니한다.\n  C) 사실행위에 대하여는 대리가 불가능하다.\n  D) 복대리인은 대리인이 선임한 본인의 대리인이다.",
+    "category": "law",
+    "supercategory": "HUMSS",
+    "subset": "Law",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": 0.3636,
+    "original_data": {
+      "question": "민법상 임의대리에 관한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "의사표시의 하자는 본인을 기준으로 판단한다.",
+        "대리인은 행위능력자임을 요하지 아니한다.",
+        "사실행위에 대하여는 대리가 불가능하다.",
+        "복대리인은 대리인이 선임한 본인의 대리인이다."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "question": "유형자산의 자본적 지출에 해당하는 것은?\n\n보기:\n  A) 차량용 타이어의 교체\n  B) 건물 내부 조명등의 교환\n  C) 건물의 에스컬레이터 설치\n  D) 파손된 유리창의 교체",
+    "category": "economics",
+    "supercategory": "HUMSS",
+    "subset": "Economics",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.3333,
+    "original_data": {
+      "question": "유형자산의 자본적 지출에 해당하는 것은?",
+      "choices": [
+        "차량용 타이어의 교체",
+        "건물 내부 조명등의 교환",
+        "건물의 에스컬레이터 설치",
+        "파손된 유리창의 교체"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "question": "보험자가 손해를 보상할 경우에 보험료의 지급을 받지 아니한 잔액이 있을 경우와 관련하여 상법 제677조(보험료체납과 보상액의 공제)의 내용으로 옳은 것은?\n\n보기:\n  A) 보험자는 보험계약에 대한 납입최고 및 해지예고 통보를 하지 않고도 보험계약을 해지할 수 있다.\n  B) 보험자는 보상할 금액에서 지급기일이 도래하지 않은 보험료는 공제할 수 없다.\n  C) 보험자는 보험금 전부에 대한 지급을 거절할 수 있다.\n  D) 보험자는 보상할 금액에서 지급기일이 도래한 보험료를 공제할 수 있다.",
+    "category": "economics",
+    "supercategory": "HUMSS",
+    "subset": "Economics",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.8247,
+    "original_data": {
+      "question": "보험자가 손해를 보상할 경우에 보험료의 지급을 받지 아니한 잔액이 있을 경우와 관련하여 상법 제677조(보험료체납과 보상액의 공제)의 내용으로 옳은 것은?",
+      "choices": [
+        "보험자는 보험계약에 대한 납입최고 및 해지예고 통보를 하지 않고도 보험계약을 해지할 수 있다.",
+        "보험자는 보상할 금액에서 지급기일이 도래하지 않은 보험료는 공제할 수 없다.",
+        "보험자는 보험금 전부에 대한 지급을 거절할 수 있다.",
+        "보험자는 보상할 금액에서 지급기일이 도래한 보험료를 공제할 수 있다."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "question": "회사의 업무용 승용차에 주유를 한 경우, 차변 계정과목으로 옳은 것은?\n\n보기:\n  A) 소모품비\n  B) 광고선전비\n  C) 수선비\n  D) 차량유지비",
+    "category": "economics",
+    "supercategory": "HUMSS",
+    "subset": "Economics",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "회사의 업무용 승용차에 주유를 한 경우, 차변 계정과목으로 옳은 것은?",
+      "choices": [
+        "소모품비",
+        "광고선전비",
+        "수선비",
+        "차량유지비"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "question": "유형자산을 취득한 후에 발생하는 지출이 미래의 경제적 효익을 증가시키면 자본적 지출로 처리하는데 그 예를 옳게 든 학생은?\n\n보기:\n  A) 김진주 : 건물의 벽에 도색을 하였어요.\n  B) 유인철 : 에어컨이 고장나서 수리를 하였어요.\n  C) 서인나 : 자동차 타이아거 소모되어 교체하였어요.\n  D) 이사랑 : 건물안에 엘리베이터를 새로 설치했어요.",
+    "category": "economics",
+    "supercategory": "HUMSS",
+    "subset": "Economics",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "유형자산을 취득한 후에 발생하는 지출이 미래의 경제적 효익을 증가시키면 자본적 지출로 처리하는데 그 예를 옳게 든 학생은?",
+      "choices": [
+        "김진주 : 건물의 벽에 도색을 하였어요.",
+        "유인철 : 에어컨이 고장나서 수리를 하였어요.",
+        "서인나 : 자동차 타이아거 소모되어 교체하였어요.",
+        "이사랑 : 건물안에 엘리베이터를 새로 설치했어요."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "question": "도매업을 영위하는 ㈜한공은 업무에 사용하던 차량을 매각하고 대금은 30일 후에 수령하기로 하였다. 차변 계정과목으로 옳은 것은?\n\n보기:\n  A) 미수수익\n  B) 미수금\n  C) 외상매출금\n  D) 미지급금",
+    "category": "economics",
+    "supercategory": "HUMSS",
+    "subset": "Economics",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.3333,
+    "original_data": {
+      "question": "도매업을 영위하는 ㈜한공은 업무에 사용하던 차량을 매각하고 대금은 30일 후에 수령하기로 하였다. 차변 계정과목으로 옳은 것은?",
+      "choices": [
+        "미수수익",
+        "미수금",
+        "외상매출금",
+        "미지급금"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "question": "(가) 단체의 활동에 대한 설명으로 옳은 것은? 탑 골공원에 모인 수많은 학생과 시민이 독립선언식을 거행하고 만세를 부르며 거리를 행진하였다. 이후 만세시위는 전국으로 확산하였다.이 운동을 계기로 독립운동가 사이에는 독립운동을 더욱 조직적으로 전개하자는 공감대가 형성되어(가)가/이 만들어졌다.(가)는/은구미 위원부를 설치하는 등 적극적으로 독립운동을 펼쳐나갔다.\n\n보기:\n  A) 대동단결 선언 을 발표하였다.\n  B) 국내와의 연락을 위해 교통국을 두었다.\n  C) 독립군을 양성하기 위해 신흥무관학교를 설립하였다.\n  D) 조선혁명 선언 을 강령으로 삼아 의열투쟁을 전개하였다.",
+    "category": "korean_history",
+    "supercategory": "HUMSS",
+    "subset": "Korean-History",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": null,
+    "original_data": {
+      "question": "(가) 단체의 활동에 대한 설명으로 옳은 것은? 탑 골공원에 모인 수많은 학생과 시민이 독립선언식을 거행하고 만세를 부르며 거리를 행진하였다. 이후 만세시위는 전국으로 확산하였다.이 운동을 계기로 독립운동가 사이에는 독립운동을 더욱 조직적으로 전개하자는 공감대가 형성되어(가)가/이 만들어졌다.(가)는/은구미 위원부를 설치하는 등 적극적으로 독립운동을 펼쳐나갔다.",
+      "choices": [
+        "대동단결 선언 을 발표하였다.",
+        "국내와의 연락을 위해 교통국을 두었다.",
+        "독립군을 양성하기 위해 신흥무관학교를 설립하였다.",
+        "조선혁명 선언 을 강령으로 삼아 의열투쟁을 전개하였다."
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "question": "다음 전투 이후에 일어난 사건으로 옳은 것만을 모두 고르면 ? 이 근행이 군사 20만 명의 대군을 이 끌고 매소성 (買肖城 )에 머물렀다 . 우리 군사가 공격하여 달아나게 하고 전마 30, 380 필을 얻었는데 , 남겨놓은 병 장기도 그 정도 되었다 .－삼국사기－ㄱ. 웅진도 독부가 설치되었다 .ㄴ.김흠돌이 반란을 일으켰다 .ㄷ.교육 기관인 국학이 설립되었다 .ㄹ .복신과 도침이 부여풍과 함께 백제 부흥 운동을 일으켰다 .\n\n보기:\n  A) ㄱ, ㄴ\n  B) ㄱ, ㄹ\n  C) ㄴ, ㄷ\n  D) ㄷ, ㄹ",
+    "category": "korean_history",
+    "supercategory": "HUMSS",
+    "subset": "Korean-History",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": null,
+    "original_data": {
+      "question": "다음 전투 이후에 일어난 사건으로 옳은 것만을 모두 고르면 ? 이 근행이 군사 20만 명의 대군을 이 끌고 매소성 (買肖城 )에 머물렀다 . 우리 군사가 공격하여 달아나게 하고 전마 30, 380 필을 얻었는데 , 남겨놓은 병 장기도 그 정도 되었다 .－삼국사기－ㄱ. 웅진도 독부가 설치되었다 .ㄴ.김흠돌이 반란을 일으켰다 .ㄷ.교육 기관인 국학이 설립되었다 .ㄹ .복신과 도침이 부여풍과 함께 백제 부흥 운동을 일으켰다 .",
+      "choices": [
+        "ㄱ, ㄴ",
+        "ㄱ, ㄹ",
+        "ㄴ, ㄷ",
+        "ㄷ, ㄹ"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "question": "(가) 인물에 대한 설명으로 옳은 것은? 군대를 이 끌고 통주성 남쪽으로 나가 진을 친 (가)은/는 거란 군에게 여러 번 승리를 거두었다 . 하지만 자만 하게 된 그는 결국 패해 거란 군의 포로가 되었다 . 거란 의 임금이 그의 결박을 풀어 주며 “내 신 하가 되겠느냐 ?”라고 물으니 , (가)은/는 “나는 고려 사람인데 어찌 너의 신 하가 되겠느냐 ?”라고 대답 하였다 . 재차 물었으나 같은 대답이었으며 , 칼로 살을 도려내며 물어도 대답은 같았다 . 거란은 마침내 그를 처형하였다 .\n\n보기:\n  A) 묘청의 난을 진압하였다 .\n  B) 별무반의 편성을 건의하였다 .\n  C) 목종을 폐위하고 현종을 옹립하였다 .\n  D) 거란과 협상하여 강동 6주 지역을 고려 영토로 확보하였다 .",
+    "category": "korean_history",
+    "supercategory": "HUMSS",
+    "subset": "Korean-History",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": null,
+    "original_data": {
+      "question": "(가) 인물에 대한 설명으로 옳은 것은? 군대를 이 끌고 통주성 남쪽으로 나가 진을 친 (가)은/는 거란 군에게 여러 번 승리를 거두었다 . 하지만 자만 하게 된 그는 결국 패해 거란 군의 포로가 되었다 . 거란 의 임금이 그의 결박을 풀어 주며 “내 신 하가 되겠느냐 ?”라고 물으니 , (가)은/는 “나는 고려 사람인데 어찌 너의 신 하가 되겠느냐 ?”라고 대답 하였다 . 재차 물었으나 같은 대답이었으며 , 칼로 살을 도려내며 물어도 대답은 같았다 . 거란은 마침내 그를 처형하였다 .",
+      "choices": [
+        "묘청의 난을 진압하였다 .",
+        "별무반의 편성을 건의하였다 .",
+        "목종을 폐위하고 현종을 옹립하였다 .",
+        "거란과 협상하여 강동 6주 지역을 고려 영토로 확보하였다 ."
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "question": "다음 유물이 사용된 시대에 대한 설명으로 옳은 것은? 미송리식 토기, 팽이형 토기, 붉은 간 토기\n\n보기:\n  A) 비파형 동검이 사용되었다 .\n  B) 오수전 등의 화폐가 사용되었다 .\n  C) 아슐리안형 주먹도끼가 사용되었다 .\n  D) 철이 많이 생산되어 낙랑과 왜에 수출되었다 .",
+    "category": "korean_history",
+    "supercategory": "HUMSS",
+    "subset": "Korean-History",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": null,
+    "original_data": {
+      "question": "다음 유물이 사용된 시대에 대한 설명으로 옳은 것은? 미송리식 토기, 팽이형 토기, 붉은 간 토기",
+      "choices": [
+        "비파형 동검이 사용되었다 .",
+        "오수전 등의 화폐가 사용되었다 .",
+        "아슐리안형 주먹도끼가 사용되었다 .",
+        "철이 많이 생산되어 낙랑과 왜에 수출되었다 ."
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "question": "(가)에 대한 설명으로 옳은 것은? 신돈이 (가)을/를 설치하자고 요청하자 , …(중략) …이 제 도감이 설치되었다 . …(중략)… 명령이 나가자 권세가 중에 전민을 빼앗은 자들이 그 주인에게 많이 돌려주었으며 , 전국에서 기 뻐하였다 .－고려사－\n\n보기:\n  A) 시 전의 물가를 감독하는 임무를 담당하였다 .\n  B) 국가재정의 출납과 회계 업무를 총괄하였다 .\n  C) 불법적으로 점유된 토지와 노비를 조사하였다 .\n  D) 부족한 녹봉을 보충하고자 관료에게 녹과 전을 지급하였다 .",
+    "category": "korean_history",
+    "supercategory": "HUMSS",
+    "subset": "Korean-History",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": null,
+    "original_data": {
+      "question": "(가)에 대한 설명으로 옳은 것은? 신돈이 (가)을/를 설치하자고 요청하자 , …(중략) …이 제 도감이 설치되었다 . …(중략)… 명령이 나가자 권세가 중에 전민을 빼앗은 자들이 그 주인에게 많이 돌려주었으며 , 전국에서 기 뻐하였다 .－고려사－",
+      "choices": [
+        "시 전의 물가를 감독하는 임무를 담당하였다 .",
+        "국가재정의 출납과 회계 업무를 총괄하였다 .",
+        "불법적으로 점유된 토지와 노비를 조사하였다 .",
+        "부족한 녹봉을 보충하고자 관료에게 녹과 전을 지급하였다 ."
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "question": "프로토콜 변환기의 일종으로 서로 다른 프로토콜을 사용하는 통신망을 상호 접속하기 위해 사용하는 통신 장비를 무엇이라고 하는가?\n\n보기:\n  A) 라우터\n  B) 리피터\n  C) 브리지\n  D) 게이트웨이",
+    "category": "computer_science",
+    "supercategory": "STEM",
+    "subset": "Computer-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.1818,
+    "original_data": {
+      "question": "프로토콜 변환기의 일종으로 서로 다른 프로토콜을 사용하는 통신망을 상호 접속하기 위해 사용하는 통신 장비를 무엇이라고 하는가?",
+      "choices": [
+        "라우터",
+        "리피터",
+        "브리지",
+        "게이트웨이"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "question": "디자인 문제 해결의 과정을 올바르게 나열한 것은?\n\n보기:\n  A) 계획 → 조사 → 분석 → 평가 → 종합\n  B) 조사 → 계획 → 분석 → 종합 → 평가\n  C) 계획 → 조사 → 분석 → 종합 → 평가\n  D) 조사 → 계획 → 분석 → 평가 → 종합",
+    "category": "computer_science",
+    "supercategory": "STEM",
+    "subset": "Computer-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.1429,
+    "original_data": {
+      "question": "디자인 문제 해결의 과정을 올바르게 나열한 것은?",
+      "choices": [
+        "계획 → 조사 → 분석 → 평가 → 종합",
+        "조사 → 계획 → 분석 → 종합 → 평가",
+        "계획 → 조사 → 분석 → 종합 → 평가",
+        "조사 → 계획 → 분석 → 평가 → 종합"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "question": "DNS서버를 테스트할 수 있는 도구로 알맞은 것은?\n\n보기:\n  A) dig\n  B) host\n  C) netstat\n  D) nslookup",
+    "category": "computer_science",
+    "supercategory": "STEM",
+    "subset": "Computer-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "DNS서버를 테스트할 수 있는 도구로 알맞은 것은?",
+      "choices": [
+        "dig",
+        "host",
+        "netstat",
+        "nslookup"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "question": "컨트롤 크기를 조절하려고 할 때 바르지 못한 방법은?\n\n보기:\n  A) 컨트롤을 선택한 후 조절점을 드래그하여 크기를 조절한다.\n  B) 컨트롤을 선택한 후 [Shift] 키를 누른 상태로 방향키를 눌러 크기를 조절한다.\n  C) [서식]-[크기]를 선택하여 크기를 조절한다.\n  D) 컨트롤을 선택한 후 [Ctrl] 키를 누른 상태로 방향키를 눌러 크기를 조절한다.",
+    "category": "computer_science",
+    "supercategory": "STEM",
+    "subset": "Computer-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "컨트롤 크기를 조절하려고 할 때 바르지 못한 방법은?",
+      "choices": [
+        "컨트롤을 선택한 후 조절점을 드래그하여 크기를 조절한다.",
+        "컨트롤을 선택한 후 [Shift] 키를 누른 상태로 방향키를 눌러 크기를 조절한다.",
+        "[서식]-[크기]를 선택하여 크기를 조절한다.",
+        "컨트롤을 선택한 후 [Ctrl] 키를 누른 상태로 방향키를 눌러 크기를 조절한다."
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "question": "컴퓨터를 이용하여 기존의 문자나 숫자 정보뿐만 아니라 텍스트, 이미지, 오디오, 비디오 등 여러 가지 형태의 정보를 통합하여 처리하는 기술을 무엇이라고 하는가?\n\n보기:\n  A) 대용량 정보 처리 기술\n  B) 멀티미디어 기술\n  C) 초고속 정보 통신 기술\n  D) 종합 정보 통신망 기술",
+    "category": "computer_science",
+    "supercategory": "STEM",
+    "subset": "Computer-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "컴퓨터를 이용하여 기존의 문자나 숫자 정보뿐만 아니라 텍스트, 이미지, 오디오, 비디오 등 여러 가지 형태의 정보를 통합하여 처리하는 기술을 무엇이라고 하는가?",
+      "choices": [
+        "대용량 정보 처리 기술",
+        "멀티미디어 기술",
+        "초고속 정보 통신 기술",
+        "종합 정보 통신망 기술"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "question": "초지의 혼파재배에서 불리한 점은?\n\n보기:\n  A) 잡초의 발생이 많아진다.\n  B) 병충해방제가 불현하다.\n  C) 건초제조가 불편하다.\n  D) 산초량(産草量)이 불균일하다.",
+    "category": "biology",
+    "supercategory": "STEM",
+    "subset": "Biology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.5106,
+    "original_data": {
+      "question": "초지의 혼파재배에서 불리한 점은?",
+      "choices": [
+        "잡초의 발생이 많아진다.",
+        "병충해방제가 불현하다.",
+        "건초제조가 불편하다.",
+        "산초량(産草量)이 불균일하다."
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "question": "제충국의 활성성분을 이용하여 해추의 신경계통을 저해하는 효과가 있는 살충제 유형은?\n\n보기:\n  A) urear계\n  B) 유기인계\n  C) 카바마이트계\n  D) 피레스로이드계",
+    "category": "biology",
+    "supercategory": "STEM",
+    "subset": "Biology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.48,
+    "original_data": {
+      "question": "제충국의 활성성분을 이용하여 해추의 신경계통을 저해하는 효과가 있는 살충제 유형은?",
+      "choices": [
+        "urear계",
+        "유기인계",
+        "카바마이트계",
+        "피레스로이드계"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "question": "mycotoxin에 해당하지 않는 것은?\n\n보기:\n  A) aflatoxin\n  B) victorin\n  C) zearalenone\n  D) fumonisin",
+    "category": "biology",
+    "supercategory": "STEM",
+    "subset": "Biology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.42,
+    "original_data": {
+      "question": "mycotoxin에 해당하지 않는 것은?",
+      "choices": [
+        "aflatoxin",
+        "victorin",
+        "zearalenone",
+        "fumonisin"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "question": "벼 도열병균이 분비하는 독소는?\n\n보기:\n  A) 빅토린(Victorin)\n  B) 피리큘라린(Piricularin)\n  C) 후사릭 산(Fusaric acid)\n  D) 라이코마라스민(Lycomarasmine)",
+    "category": "biology",
+    "supercategory": "STEM",
+    "subset": "Biology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.4877,
+    "original_data": {
+      "question": "벼 도열병균이 분비하는 독소는?",
+      "choices": [
+        "빅토린(Victorin)",
+        "피리큘라린(Piricularin)",
+        "후사릭 산(Fusaric acid)",
+        "라이코마라스민(Lycomarasmine)"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "question": "농약 중독 시 응급처치 요령이 아닌 것은?\n\n보기:\n  A) 피부 오염 시 비눗물로 목욕을 한다.\n  B) 눈 오염 시 포화소금물로 15분간 씻어낸다.\n  C) 음독 시 황산나트륨, 황산마그네슘을 설사약으로 복용한다.\n  D) 인공호흡을 실시한다.",
+    "category": "biology",
+    "supercategory": "STEM",
+    "subset": "Biology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.5164,
+    "original_data": {
+      "question": "농약 중독 시 응급처치 요령이 아닌 것은?",
+      "choices": [
+        "피부 오염 시 비눗물로 목욕을 한다.",
+        "눈 오염 시 포화소금물로 15분간 씻어낸다.",
+        "음독 시 황산나트륨, 황산마그네슘을 설사약으로 복용한다.",
+        "인공호흡을 실시한다."
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "question": "약전에 수재(收載)되어있는 분석법의 정밀성 평가 항목이 아닌 것은?\n\n보기:\n  A) 반복성\n  B) 직선성\n  C) 실내재현성\n  D) 실간재현성",
+    "category": "chemistry",
+    "supercategory": "STEM",
+    "subset": "Chemistry",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.5412,
+    "original_data": {
+      "question": "약전에 수재(收載)되어있는 분석법의 정밀성 평가 항목이 아닌 것은?",
+      "choices": [
+        "반복성",
+        "직선성",
+        "실내재현성",
+        "실간재현성"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "question": "질량백분율 10.0% NaCl 수용액의 몰랄농도는 얼마인가? (단, NaCl의 몰질량은 58.44g/mol 이다.)\n\n보기:\n  A) 0.171m\n  B) 1.71m\n  C) 0.19m\n  D) 1.9m",
+    "category": "chemistry",
+    "supercategory": "STEM",
+    "subset": "Chemistry",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.1667,
+    "original_data": {
+      "question": "질량백분율 10.0% NaCl 수용액의 몰랄농도는 얼마인가? (단, NaCl의 몰질량은 58.44g/mol 이다.)",
+      "choices": [
+        "0.171m",
+        "1.71m",
+        "0.19m",
+        "1.9m"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "question": "결정수를 가지는 화합물을 무엇이라고 하는가?\n\n보기:\n  A) 이온화\n  B) 수화물\n  C) 승화물\n  D) 포화용액",
+    "category": "chemistry",
+    "supercategory": "STEM",
+    "subset": "Chemistry",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.4706,
+    "original_data": {
+      "question": "결정수를 가지는 화합물을 무엇이라고 하는가?",
+      "choices": [
+        "이온화",
+        "수화물",
+        "승화물",
+        "포화용액"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "question": "20℃, 0.5atm에서 10L인 기체가 있다. 표준상태에서 이 기체의 부피는?\n\n보기:\n  A) 2.54L\n  B) 4.65L\n  C) 5L\n  D) 10L",
+    "category": "chemistry",
+    "supercategory": "STEM",
+    "subset": "Chemistry",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.6193,
+    "original_data": {
+      "question": "20℃, 0.5atm에서 10L인 기체가 있다. 표준상태에서 이 기체의 부피는?",
+      "choices": [
+        "2.54L",
+        "4.65L",
+        "5L",
+        "10L"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "question": "3.0M AgNO3 200mL를 0.9M CuCl2 350mL에 가해졌을 때, 생성되는 AgCl(분자량=143g)의 양은?\n\n보기:\n  A) 8.58g\n  B) 45.1g\n  C) 85.8g\n  D) 451g",
+    "category": "chemistry",
+    "supercategory": "STEM",
+    "subset": "Chemistry",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.5714,
+    "original_data": {
+      "question": "3.0M AgNO3 200mL를 0.9M CuCl2 350mL에 가해졌을 때, 생성되는 AgCl(분자량=143g)의 양은?",
+      "choices": [
+        "8.58g",
+        "45.1g",
+        "85.8g",
+        "451g"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "question": "수열 {an}이 a1=, 2nan+1=(n+1)an(n=1, 2, 3, …)을 만족시킬 때, a11의 값은?\n\n보기:\n  A) 11/2048\n  B) 11/1024\n  C) 11/512\n  D) 11/256",
+    "category": "math",
+    "supercategory": "STEM",
+    "subset": "Math",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "수열 {an}이 a1=, 2nan+1=(n+1)an(n=1, 2, 3, …)을 만족시킬 때, a11의 값은?",
+      "choices": [
+        "11/2048",
+        "11/1024",
+        "11/512",
+        "11/256"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "question": "닫힌구간 [0,2π]에서 정의된 함수 y=a cos2x+2a sinx-2의 최댓값이 -1이 되도록 하는 모든 상수 a의 값의 합은?\n\n보기:\n  A) -2\n  B) -1\n  C) 0\n  D) 1",
+    "category": "math",
+    "supercategory": "STEM",
+    "subset": "Math",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "닫힌구간 [0,2π]에서 정의된 함수 y=a cos2x+2a sinx-2의 최댓값이 -1이 되도록 하는 모든 상수 a의 값의 합은?",
+      "choices": [
+        "-2",
+        "-1",
+        "0",
+        "1"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "question": "다항식 P(x)를 x-1로 나누었을 때의 나머지는 3이고, x-2로 나누었을 때의 나머지는 6이다. 다항식 P(x)를 (x-1)(x-2)로 나누었을 때의 나머지를 R(x)라고 할 때, R(3)의 값은?\n\n보기:\n  A) 3\n  B) 6\n  C) 9\n  D) 12",
+    "category": "math",
+    "supercategory": "STEM",
+    "subset": "Math",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.3636,
+    "original_data": {
+      "question": "다항식 P(x)를 x-1로 나누었을 때의 나머지는 3이고, x-2로 나누었을 때의 나머지는 6이다. 다항식 P(x)를 (x-1)(x-2)로 나누었을 때의 나머지를 R(x)라고 할 때, R(3)의 값은?",
+      "choices": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "question": "원 x2+y2-2x+2y-6=0 위의 점에서 직선 y=x-8에 이르는 거리의 최솟값은?\n\n보기:\n  A) 1\n  B) √2\n  C) 3\n  D) 2√2",
+    "category": "math",
+    "supercategory": "STEM",
+    "subset": "Math",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "원 x2+y2-2x+2y-6=0 위의 점에서 직선 y=x-8에 이르는 거리의 최솟값은?",
+      "choices": [
+        "1",
+        "√2",
+        "3",
+        "2√2"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "question": "다항식 x3 - ax2 + bx - 6을 인수분해하면 (x – 1)(x – 2)(x + c)일 때, 상수 a, ,b, c의 합 a+b+c의 값은?\n\n보기:\n  A) 20\n  B) 18\n  C) 16\n  D) 14",
+    "category": "math",
+    "supercategory": "STEM",
+    "subset": "Math",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "다항식 x3 - ax2 + bx - 6을 인수분해하면 (x – 1)(x – 2)(x + c)일 때, 상수 a, ,b, c의 합 a+b+c의 값은?",
+      "choices": [
+        "20",
+        "18",
+        "16",
+        "14"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "question": "패턴 설계 시 유의 사항으로 옳지 않은 것은?\n\n보기:\n  A) 패턴은 가급적 굵고 짧게 해야 한다.\n  B) 패턴 사이의 간격을 최대한 붙여 놓는다.\n  C) 배선은 가급적 짧게 하는 것이 다른 배선이나 부품의 영향을 적게 받는다.\n  D) 전력 용량, 주파수 대역 및 신호 형태별로 기판을 나누거나 커넥터를 분리하여 설계한다.",
+    "category": "information_technology",
+    "supercategory": "Applied Science",
+    "subset": "Information-Technology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.1667,
+    "original_data": {
+      "question": "패턴 설계 시 유의 사항으로 옳지 않은 것은?",
+      "choices": [
+        "패턴은 가급적 굵고 짧게 해야 한다.",
+        "패턴 사이의 간격을 최대한 붙여 놓는다.",
+        "배선은 가급적 짧게 하는 것이 다른 배선이나 부품의 영향을 적게 받는다.",
+        "전력 용량, 주파수 대역 및 신호 형태별로 기판을 나누거나 커넥터를 분리하여 설계한다."
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "question": "분산 데이터베이스의 특징이 아닌 것은?\n\n보기:\n  A) 자원의 공유가능\n  B) 처리효율의 향상\n  C) 신뢰성 증대\n  D) 통신비용의 절감",
+    "category": "information_technology",
+    "supercategory": "Applied Science",
+    "subset": "Information-Technology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.25,
+    "original_data": {
+      "question": "분산 데이터베이스의 특징이 아닌 것은?",
+      "choices": [
+        "자원의 공유가능",
+        "처리효율의 향상",
+        "신뢰성 증대",
+        "통신비용의 절감"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "question": "프로그램 저작권에 관한 사항을 심의하고, 분쟁을 조정하기 위한 기구는?\n\n보기:\n  A) 한국전산원\n  B) 프로그램심의조정위원회\n  C) 통신위원회\n  D) 정보화추진위원회",
+    "category": "information_technology",
+    "supercategory": "Applied Science",
+    "subset": "Information-Technology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.1667,
+    "original_data": {
+      "question": "프로그램 저작권에 관한 사항을 심의하고, 분쟁을 조정하기 위한 기구는?",
+      "choices": [
+        "한국전산원",
+        "프로그램심의조정위원회",
+        "통신위원회",
+        "정보화추진위원회"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "question": "관리과정 중 가장 우선적으로 실시하여야 하는 것은?\n\n보기:\n  A) 조직화\n  B) 계획화\n  C) 통제화\n  D) 민영화",
+    "category": "information_technology",
+    "supercategory": "Applied Science",
+    "subset": "Information-Technology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.25,
+    "original_data": {
+      "question": "관리과정 중 가장 우선적으로 실시하여야 하는 것은?",
+      "choices": [
+        "조직화",
+        "계획화",
+        "통제화",
+        "민영화"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "question": "DMA 방식에 의한 사이클 스틸과 인터럽트의 가장 특징적인 차이점은?\n\n보기:\n  A) 프로그램을 영원히 정지\n  B) 실행중인 프로그램 정지\n  C) 프로그램의 실행이 다시 시작\n  D) 주기억장치 사이클의 한 주기만 정지",
+    "category": "information_technology",
+    "supercategory": "Applied Science",
+    "subset": "Information-Technology",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.3333,
+    "original_data": {
+      "question": "DMA 방식에 의한 사이클 스틸과 인터럽트의 가장 특징적인 차이점은?",
+      "choices": [
+        "프로그램을 영원히 정지",
+        "실행중인 프로그램 정지",
+        "프로그램의 실행이 다시 시작",
+        "주기억장치 사이클의 한 주기만 정지"
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "question": "온도가 상승할 때 고유저항이 작아지는 것은?\n\n보기:\n  A) 니크롬\n  B) 구리\n  C) 실리콘\n  D) 수은",
+    "category": "electrical_engineering",
+    "supercategory": "Applied Science",
+    "subset": "Electrical-Engineering",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "온도가 상승할 때 고유저항이 작아지는 것은?",
+      "choices": [
+        "니크롬",
+        "구리",
+        "실리콘",
+        "수은"
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "question": "내화성능으로 구분되어지는 것은?\n\n보기:\n  A) 회반죽 바르기\n  B) 콘크리트\n  C) 연와조\n  D) 석면판",
+    "category": "electrical_engineering",
+    "supercategory": "Applied Science",
+    "subset": "Electrical-Engineering",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.2727,
+    "original_data": {
+      "question": "내화성능으로 구분되어지는 것은?",
+      "choices": [
+        "회반죽 바르기",
+        "콘크리트",
+        "연와조",
+        "석면판"
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "question": "R - L - C 직렬공지 회로에서 R=100Ω, L=314mL, C=125.6pF 일 때 선택도(전압 확대율)은?\n\n보기:\n  A) 2x103\n  B) 3x103\n  C) 4x102\n  D) 5x102",
+    "category": "electrical_engineering",
+    "supercategory": "Applied Science",
+    "subset": "Electrical-Engineering",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "R - L - C 직렬공지 회로에서 R=100Ω, L=314mL, C=125.6pF 일 때 선택도(전압 확대율)은?",
+      "choices": [
+        "2x103",
+        "3x103",
+        "4x102",
+        "5x102"
+      ]
+    }
+  },
+  {
+    "id": 49,
+    "question": "대전된 구 도체를 반지름이 2배가 되는 대전이 되지 않은 구 도체에 가는 도선으로 연결할 때 원래의 에너지에 대해 손실된 에너지는 얼마가 되는가?\n\n보기:\n  A) 1/2\n  B) 1/3\n  C) 2/3\n  D) 2/5",
+    "category": "electrical_engineering",
+    "supercategory": "Applied Science",
+    "subset": "Electrical-Engineering",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.3125,
+    "original_data": {
+      "question": "대전된 구 도체를 반지름이 2배가 되는 대전이 되지 않은 구 도체에 가는 도선으로 연결할 때 원래의 에너지에 대해 손실된 에너지는 얼마가 되는가?",
+      "choices": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "2/5"
+      ]
+    }
+  },
+  {
+    "id": 50,
+    "question": "변압기 권선의 층간 절연시험은?\n\n보기:\n  A) 가압시험\n  B) 유도시험\n  C) 충격시험\n  D) 단락시험",
+    "category": "electrical_engineering",
+    "supercategory": "Applied Science",
+    "subset": "Electrical-Engineering",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.1110999999999999,
+    "original_data": {
+      "question": "변압기 권선의 층간 절연시험은?",
+      "choices": [
+        "가압시험",
+        "유도시험",
+        "충격시험",
+        "단락시험"
+      ]
+    }
+  },
+  {
+    "id": 51,
+    "question": "상수관로에서 조도계수 0.014, 동수경사 1/100이고, 관경이 400mm일 때 이 관로의 유량은? (단, 만관 기준, Manning 공식에 의함)\n\n보기:\n  A) 3.8m3/min\n  B) 6.2m3/min\n  C) 9.3m3/min\n  D) 11.6m3/min",
+    "category": "environmental_science",
+    "supercategory": "Applied Science",
+    "subset": "Environmental-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2647,
+    "original_data": {
+      "question": "상수관로에서 조도계수 0.014, 동수경사 1/100이고, 관경이 400mm일 때 이 관로의 유량은? (단, 만관 기준, Manning 공식에 의함)",
+      "choices": [
+        "3.8m3/min",
+        "6.2m3/min",
+        "9.3m3/min",
+        "11.6m3/min"
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "question": "BOD가 10,000mg/L이고 염소이온농도가 1,000mg/L인 분뇨를 희석하여 활성 슬러지법으로 처리한 결과 방류수의 BOD는 40mg/L, 염소이온의 농도는 25mg/L으로 나타났다. 활성 슬러지법의 처리효율은? (단, 염소는 생물학적 처리에서 제거되지 않음)\n\n보기:\n  A) 72%\n  B) 78%\n  C) 84%\n  D) 93%",
+    "category": "environmental_science",
+    "supercategory": "Applied Science",
+    "subset": "Environmental-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.25,
+    "original_data": {
+      "question": "BOD가 10,000mg/L이고 염소이온농도가 1,000mg/L인 분뇨를 희석하여 활성 슬러지법으로 처리한 결과 방류수의 BOD는 40mg/L, 염소이온의 농도는 25mg/L으로 나타났다. 활성 슬러지법의 처리효율은? (단, 염소는 생물학적 처리에서 제거되지 않음)",
+      "choices": [
+        "72%",
+        "78%",
+        "84%",
+        "93%"
+      ]
+    }
+  },
+  {
+    "id": 53,
+    "question": "연료용 유류 중 황함유량 측정을 위한 분석방법에 대한 설명으로 옳지 않은 것은?\n\n보기:\n  A) 분석방법의 종류는 연소관식 공기법과 방사선식 여기법이 있으며, 원유ㆍ경유ㆍ중유에 적용된다.\n  B) 방사선식 여기법은 950 - 1100℃로 가열한 탄소재질 방사관에 황을 포함한 유류에 γ선을 조사하여 얻어진 형광 γ선의 광도를 측정한다.\n  C) 연소관식 공기법은 불용성 황산염을 만드는 금속(Ba, Ca 등)이 들어있는 시료에는 적용할 수 없다.\n  D) 연소관식 공기법은 생성된 황산화물을 과산화수소(3%)에 흡수시켜 황산으로 만든 다음, 수산화나트륨표준액으로 중화적정하여 황함유량을 구한다.",
+    "category": "environmental_science",
+    "supercategory": "Applied Science",
+    "subset": "Environmental-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.25,
+    "original_data": {
+      "question": "연료용 유류 중 황함유량 측정을 위한 분석방법에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "분석방법의 종류는 연소관식 공기법과 방사선식 여기법이 있으며, 원유ㆍ경유ㆍ중유에 적용된다.",
+        "방사선식 여기법은 950 - 1100℃로 가열한 탄소재질 방사관에 황을 포함한 유류에 γ선을 조사하여 얻어진 형광 γ선의 광도를 측정한다.",
+        "연소관식 공기법은 불용성 황산염을 만드는 금속(Ba, Ca 등)이 들어있는 시료에는 적용할 수 없다.",
+        "연소관식 공기법은 생성된 황산화물을 과산화수소(3%)에 흡수시켜 황산으로 만든 다음, 수산화나트륨표준액으로 중화적정하여 황함유량을 구한다."
+      ]
+    }
+  },
+  {
+    "id": 54,
+    "question": "가연성분이 CH4 65%, C2H6 20%, C3H8 15%로 구성된 습성천연가스 1Sm3을 연소할 경우 이론공기량은(Sm3)?\n\n보기:\n  A) 10.5\n  B) 11.0\n  C) 12.3\n  D) 13.1",
+    "category": "environmental_science",
+    "supercategory": "Applied Science",
+    "subset": "Environmental-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.1538,
+    "original_data": {
+      "question": "가연성분이 CH4 65%, C2H6 20%, C3H8 15%로 구성된 습성천연가스 1Sm3을 연소할 경우 이론공기량은(Sm3)?",
+      "choices": [
+        "10.5",
+        "11.0",
+        "12.3",
+        "13.1"
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "question": "BOD 250mg/L 인 폐수를 살수 여상법으로 처리할 때 처리수의 BOD는 80mg/L 이었고 이때의 온도가 20℃였다. 만일 온도가 23℃로 된다면 처리수의 BOD 농도는? (단, 온도 이외의 처리조건은 같고, E: 처리효율 Et=E20×CiT-20. Ci=1.035임)\n\n보기:\n  A) 약 32 mg/L\n  B) 약 42 mg/L\n  C) 약 52 mg/L\n  D) 약 62 mg/L",
+    "category": "environmental_science",
+    "supercategory": "Applied Science",
+    "subset": "Environmental-Science",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.3077,
+    "original_data": {
+      "question": "BOD 250mg/L 인 폐수를 살수 여상법으로 처리할 때 처리수의 BOD는 80mg/L 이었고 이때의 온도가 20℃였다. 만일 온도가 23℃로 된다면 처리수의 BOD 농도는? (단, 온도 이외의 처리조건은 같고, E: 처리효율 Et=E20×CiT-20. Ci=1.035임)",
+      "choices": [
+        "약 32 mg/L",
+        "약 42 mg/L",
+        "약 52 mg/L",
+        "약 62 mg/L"
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "question": "검사대상기기에 해당되는 열사용 가지재는?\n\n보기:\n  A) 최고사용압력이 0.08MPa이고, 전열면적이 4㎡인 강철제 보일러\n  B) 흡수식 냉온수기\n  C) 가스사용량이 20kg/h인 가스사용 소형온수보일러\n  D) 정격용량이 0.4MW인 철금속가열로",
+    "category": "energy_management",
+    "supercategory": "Applied Science",
+    "subset": "Energy-Management",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.5,
+    "original_data": {
+      "question": "검사대상기기에 해당되는 열사용 가지재는?",
+      "choices": [
+        "최고사용압력이 0.08MPa이고, 전열면적이 4㎡인 강철제 보일러",
+        "흡수식 냉온수기",
+        "가스사용량이 20kg/h인 가스사용 소형온수보일러",
+        "정격용량이 0.4MW인 철금속가열로"
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "question": "밀폐계가 3[bar]의 압력으로 유지하면서 체적이 0.2[m3]에서 0.5 [m3]로 증가하였고 과정간 내부 에너지는 10 [KJ]만큼 증가하였다. 이 때 과정간 계의 이동열량은 몇[KJ]인가?\n\n보기:\n  A) 90\n  B) 100\n  C) 9\n  D) 10",
+    "category": "energy_management",
+    "supercategory": "Applied Science",
+    "subset": "Energy-Management",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.3889,
+    "original_data": {
+      "question": "밀폐계가 3[bar]의 압력으로 유지하면서 체적이 0.2[m3]에서 0.5 [m3]로 증가하였고 과정간 내부 에너지는 10 [KJ]만큼 증가하였다. 이 때 과정간 계의 이동열량은 몇[KJ]인가?",
+      "choices": [
+        "90",
+        "100",
+        "9",
+        "10"
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "question": "일반적으로 부피비중이 가장 크다고 인정되는 내화물은?\n\n보기:\n  A) 샤모트질 소성내화물\n  B) 마그네시아질 불소성내화물\n  C) 지르콘질 용융내화물\n  D) 알루미나질 소성내화물",
+    "category": "energy_management",
+    "supercategory": "Applied Science",
+    "subset": "Energy-Management",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.2423999999999999,
+    "original_data": {
+      "question": "일반적으로 부피비중이 가장 크다고 인정되는 내화물은?",
+      "choices": [
+        "샤모트질 소성내화물",
+        "마그네시아질 불소성내화물",
+        "지르콘질 용융내화물",
+        "알루미나질 소성내화물"
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "question": "보일러 가동 시 진동연소의 원인이 되는 것은?\n\n보기:\n  A) 연료의 인화점이 낮을 때\n  B) 연료의 예열 온도가 너무 높을 때\n  C) 연료의 발열량이 낮을 때\n  D) 버너타일 형상이 맞지 않을 때",
+    "category": "energy_management",
+    "supercategory": "Applied Science",
+    "subset": "Energy-Management",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.4324,
+    "original_data": {
+      "question": "보일러 가동 시 진동연소의 원인이 되는 것은?",
+      "choices": [
+        "연료의 인화점이 낮을 때",
+        "연료의 예열 온도가 너무 높을 때",
+        "연료의 발열량이 낮을 때",
+        "버너타일 형상이 맞지 않을 때"
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "question": "보일러에서 점화하기 전에 공기를 빼고 물을 가득 채워야 하는 곳은?\n\n보기:\n  A) 보일러 동(胴)\n  B) 절탄기\n  C) 과열기\n  D) 비수방지관",
+    "category": "energy_management",
+    "supercategory": "Applied Science",
+    "subset": "Energy-Management",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.3611,
+    "original_data": {
+      "question": "보일러에서 점화하기 전에 공기를 빼고 물을 가득 채워야 하는 곳은?",
+      "choices": [
+        "보일러 동(胴)",
+        "절탄기",
+        "과열기",
+        "비수방지관"
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "question": "농어촌 등 보건의료를 위한 특별조치 법령상 보건진료 전담공무원에 대한 설명으로 옳지 않은 것은?\n\n보기:\n  A) 보수교육기간은 매년 21시간 이상으로 한다.\n  B) 특별자치시장 ㆍ 특별자치도지사 ㆍ시장 ㆍ군수 또는 구청장이 근무 지역을 지정하여 임용한 다 .\n  C) 간호사 ㆍ조산사 면허를 가진 사람으로서 보건복지부 장관이 실시하는 16주 이상의 직무교육을 받은 사람이어야 한다.\n  D) 근무지역으로 지정받은 의료 취약지역에서 질병 ㆍ부상의 악화 방지를 위한 처치 등의 경미한 의료행위를 할 수 있다.",
+    "category": "health",
+    "supercategory": "Other",
+    "subset": "Health",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "농어촌 등 보건의료를 위한 특별조치 법령상 보건진료 전담공무원에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "보수교육기간은 매년 21시간 이상으로 한다.",
+        "특별자치시장 ㆍ 특별자치도지사 ㆍ시장 ㆍ군수 또는 구청장이 근무 지역을 지정하여 임용한 다 .",
+        "간호사 ㆍ조산사 면허를 가진 사람으로서 보건복지부 장관이 실시하는 16주 이상의 직무교육을 받은 사람이어야 한다.",
+        "근무지역으로 지정받은 의료 취약지역에서 질병 ㆍ부상의 악화 방지를 위한 처치 등의 경미한 의료행위를 할 수 있다."
+      ]
+    }
+  },
+  {
+    "id": 62,
+    "question": "의료 전달체계의 목적이 아닌 것은?\n\n보기:\n  A) 건강보험의 재정 안정 도모\n  B) 의료자원의 효율적 이용\n  C) 고급화된 의료 서비스 제공 촉진\n  D) 지역 및 의료기관 간의 균형적인 발전 도모",
+    "category": "health",
+    "supercategory": "Other",
+    "subset": "Health",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "의료 전달체계의 목적이 아닌 것은?",
+      "choices": [
+        "건강보험의 재정 안정 도모",
+        "의료자원의 효율적 이용",
+        "고급화된 의료 서비스 제공 촉진",
+        "지역 및 의료기관 간의 균형적인 발전 도모"
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "question": "학교보건법령상 학교 환경위생 기준을 충족하지 못한 것은?\n\n보기:\n  A) 소음 : 40dB(교사 내)\n  B) 인공조명 : 150lux(교실 책상면 기준)\n  C) 비교습도 : 50%\n  D) 이산화탄소 : 550ppm(교실)",
+    "category": "health",
+    "supercategory": "Other",
+    "subset": "Health",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "학교보건법령상 학교 환경위생 기준을 충족하지 못한 것은?",
+      "choices": [
+        "소음 : 40dB(교사 내)",
+        "인공조명 : 150lux(교실 책상면 기준)",
+        "비교습도 : 50%",
+        "이산화탄소 : 550ppm(교실)"
+      ]
+    }
+  },
+  {
+    "id": 64,
+    "question": "국민건강증진법령상 ‘과다한 음주는 건강에 해롭다 ’는 경고문구를 판매용 용기에 표기해야 하는 주류의 알코올 분 기준은 ?\n\n보기:\n  A) 1도 이상\n  B) 5도 이상\n  C) 10도 이상\n  D) 17도 이상",
+    "category": "health",
+    "supercategory": "Other",
+    "subset": "Health",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "국민건강증진법령상 ‘과다한 음주는 건강에 해롭다 ’는 경고문구를 판매용 용기에 표기해야 하는 주류의 알코올 분 기준은 ?",
+      "choices": [
+        "1도 이상",
+        "5도 이상",
+        "10도 이상",
+        "17도 이상"
+      ]
+    }
+  },
+  {
+    "id": 65,
+    "question": "한국간호사 윤리강령의 항목에 대한 설명으로 옳은 것은?\n\n보기:\n  A) 건강환경 구현－간호사는 건강을 위협하는 사회적 유해환경, 재해, 생태계의 오염으로부터 간호대상자를 보호하고, 건강한 환경을 보전․ 유지하는 데에 참여한다.\n  B) 전문적 활동 － 간호사는 간호 수준의 향상과 근거기반 실무를 위한 교육과 훈련에 참여하고, 간호표준 개발 및 연구에 기여한다.\n  C) 대상자 보호－간호사는 간호의 전 과정에서 인간의 존엄과 가치, 개인의 안전을 우선하여야 하며, 위험을 최소화하기 위한 조치를 취한다.\n  D) 취약한 대상자 보호－간호사는 인간 생명의 존엄성과 안전에 위배되는 생명과학기술을 이용한 시술로부터 간호 대상자를 보호한다.",
+    "category": "health",
+    "supercategory": "Other",
+    "subset": "Health",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 1,
+    "human_accuracy": 0.0,
+    "original_data": {
+      "question": "한국간호사 윤리강령의 항목에 대한 설명으로 옳은 것은?",
+      "choices": [
+        "건강환경 구현－간호사는 건강을 위협하는 사회적 유해환경, 재해, 생태계의 오염으로부터 간호대상자를 보호하고, 건강한 환경을 보전․ 유지하는 데에 참여한다.",
+        "전문적 활동 － 간호사는 간호 수준의 향상과 근거기반 실무를 위한 교육과 훈련에 참여하고, 간호표준 개발 및 연구에 기여한다.",
+        "대상자 보호－간호사는 간호의 전 과정에서 인간의 존엄과 가치, 개인의 안전을 우선하여야 하며, 위험을 최소화하기 위한 조치를 취한다.",
+        "취약한 대상자 보호－간호사는 인간 생명의 존엄성과 안전에 위배되는 생명과학기술을 이용한 시술로부터 간호 대상자를 보호한다."
+      ]
+    }
+  },
+  {
+    "id": 66,
+    "question": "A아파트의 인근지역에 공원이 새롭게 조성되고, 대형마트가 들어서서 A아파트의 가격이 상승했다면, 이러한 현상은 부동산의 자연적ㆍ인문적 특성 중 어떤 특성에 의한 것인가?\n\n보기:\n  A) 생산성ㆍ용도의 다양성\n  B) 부동성ㆍ위치의 가변성\n  C) 영속성ㆍ투자의 고정성\n  D) 적재성ㆍ가치의 보존성",
+    "category": "real_estate",
+    "supercategory": "Other",
+    "subset": "Real-Estate",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.7589,
+    "original_data": {
+      "question": "A아파트의 인근지역에 공원이 새롭게 조성되고, 대형마트가 들어서서 A아파트의 가격이 상승했다면, 이러한 현상은 부동산의 자연적ㆍ인문적 특성 중 어떤 특성에 의한 것인가?",
+      "choices": [
+        "생산성ㆍ용도의 다양성",
+        "부동성ㆍ위치의 가변성",
+        "영속성ㆍ투자의 고정성",
+        "적재성ㆍ가치의 보존성"
+      ]
+    }
+  },
+  {
+    "id": 67,
+    "question": "공인중개사법령상 중개대상에 관한 설명으로 옳은 것은?(다툼이 있으면 판례에 의함)\n\n보기:\n  A) 점포위치에 따른 영업상의 이점(利點)은 중개대상물이다.\n  B) 명인방법을 갖춘 수목은 중개대상물이 될 수 없다.\n  C) 동산질권은 중개대상이 아니다.\n  D) 아파트에 대한 추첨기일에 신청을 하여 당첨이 되면 아파트의 분양예정자로 선정될 수 있는 지위를 가리키는 입주권도 중개대상물이 된다.",
+    "category": "real_estate",
+    "supercategory": "Other",
+    "subset": "Real-Estate",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.3939,
+    "original_data": {
+      "question": "공인중개사법령상 중개대상에 관한 설명으로 옳은 것은?(다툼이 있으면 판례에 의함)",
+      "choices": [
+        "점포위치에 따른 영업상의 이점(利點)은 중개대상물이다.",
+        "명인방법을 갖춘 수목은 중개대상물이 될 수 없다.",
+        "동산질권은 중개대상이 아니다.",
+        "아파트에 대한 추첨기일에 신청을 하여 당첨이 되면 아파트의 분양예정자로 선정될 수 있는 지위를 가리키는 입주권도 중개대상물이 된다."
+      ]
+    }
+  },
+  {
+    "id": 68,
+    "question": "부동산마케팅 및 광고에 관한 설명 중 틀린 것은?\n\n보기:\n  A) 부동산마케팅 전략을 수립할 때에는 거시환경과 미시환경에 대한 분석이 필요하다.\n  B) 부동산의 개별성으로 인해 광고의 내용도 개별성을 갖는 것이 일반적이다.\n  C) 고객점유마케팅 전략은 공급자와 소비자 간의 장기적ㆍ지속적 상호작용을 중시한다.\n  D) 부동산 중개업소를 적극적으로 활용하는 것은 부동산마케팅 4P(product, price, place, promotion) 전략 중 유통경로(place)전략에 해당한다.",
+    "category": "real_estate",
+    "supercategory": "Other",
+    "subset": "Real-Estate",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.3393,
+    "original_data": {
+      "question": "부동산마케팅 및 광고에 관한 설명 중 틀린 것은?",
+      "choices": [
+        "부동산마케팅 전략을 수립할 때에는 거시환경과 미시환경에 대한 분석이 필요하다.",
+        "부동산의 개별성으로 인해 광고의 내용도 개별성을 갖는 것이 일반적이다.",
+        "고객점유마케팅 전략은 공급자와 소비자 간의 장기적ㆍ지속적 상호작용을 중시한다.",
+        "부동산 중개업소를 적극적으로 활용하는 것은 부동산마케팅 4P(product, price, place, promotion) 전략 중 유통경로(place)전략에 해당한다."
+      ]
+    }
+  },
+  {
+    "id": 69,
+    "question": "공인중개사법령상 분사무소 설치신고서의 기재사항이 아닌 것은?\n\n보기:\n  A) 본사 명칭\n  B) 본사 소재지\n  C) 본사 등록번호\n  D) 분사무소 설치사유",
+    "category": "real_estate",
+    "supercategory": "Other",
+    "subset": "Real-Estate",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.7402,
+    "original_data": {
+      "question": "공인중개사법령상 분사무소 설치신고서의 기재사항이 아닌 것은?",
+      "choices": [
+        "본사 명칭",
+        "본사 소재지",
+        "본사 등록번호",
+        "분사무소 설치사유"
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "question": "중개업자 등의 거래계약서 작성에 관한 설명 중 틀린 것은?\n\n보기:\n  A) 부동산 매매에 관한 거래계약서에는 권리이전의 내용을 반드시 기재하여야 한다.\n  B) 중개업자는 중개가 완성되어 거래계약서가 작성된 경우에는 그 사본을 5년 동안 보존하여야 한다.\n  C) 공인중개사 甲은 소속공인중개사로서 중개업무를 수행하면서 거래계약서에 거래금액을 거짓으로 기재하여 당해 도지사로부터 과태료처분을 받았다.\n  D) 법인인 중개업자의 분사무소에서 거래계약서를 작성하는 경우에는 분사무소의 등록인장을 날인하여야 한다.",
+    "category": "real_estate",
+    "supercategory": "Other",
+    "subset": "Real-Estate",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.5714,
+    "original_data": {
+      "question": "중개업자 등의 거래계약서 작성에 관한 설명 중 틀린 것은?",
+      "choices": [
+        "부동산 매매에 관한 거래계약서에는 권리이전의 내용을 반드시 기재하여야 한다.",
+        "중개업자는 중개가 완성되어 거래계약서가 작성된 경우에는 그 사본을 5년 동안 보존하여야 한다.",
+        "공인중개사 甲은 소속공인중개사로서 중개업무를 수행하면서 거래계약서에 거래금액을 거짓으로 기재하여 당해 도지사로부터 과태료처분을 받았다.",
+        "법인인 중개업자의 분사무소에서 거래계약서를 작성하는 경우에는 분사무소의 등록인장을 날인하여야 한다."
+      ]
+    }
+  },
+  {
+    "id": 71,
+    "question": "직경이 10m, 유효크기(equivalent dimension)가 4m인 터널에서 Q값이 20일 때, 무지보 최대폭은 얼마인가?\n\n보기:\n  A) 10.23m\n  B) 12.71m\n  C) 14.63m\n  D) 16.57m",
+    "category": "public_safety",
+    "supercategory": "Other",
+    "subset": "Public-Safety",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.3125,
+    "original_data": {
+      "question": "직경이 10m, 유효크기(equivalent dimension)가 4m인 터널에서 Q값이 20일 때, 무지보 최대폭은 얼마인가?",
+      "choices": [
+        "10.23m",
+        "12.71m",
+        "14.63m",
+        "16.57m"
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "question": "수동식소화기의 소화능력 시험에 관한 기준 중 옳은 것은?\n\n보기:\n  A) A급 화재용 소화기의 소화능력 시험은 중유를 대상한다.\n  B) B급 화재용 소화기의 소화능력 시험에서 소화는 모형에 불을 붙인 다음 30초 후에 시작한다.\n  C) 소화기를 조장하는 사람은 안전을 위해서 방화복을 착용한다.\n  D) 소화기의 소화능력 시험은 무풍상태와 사용상태에서 실시한다.",
+    "category": "public_safety",
+    "supercategory": "Other",
+    "subset": "Public-Safety",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 4,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "수동식소화기의 소화능력 시험에 관한 기준 중 옳은 것은?",
+      "choices": [
+        "A급 화재용 소화기의 소화능력 시험은 중유를 대상한다.",
+        "B급 화재용 소화기의 소화능력 시험에서 소화는 모형에 불을 붙인 다음 30초 후에 시작한다.",
+        "소화기를 조장하는 사람은 안전을 위해서 방화복을 착용한다.",
+        "소화기의 소화능력 시험은 무풍상태와 사용상태에서 실시한다."
+      ]
+    }
+  },
+  {
+    "id": 73,
+    "question": "화약류 1급 저장소에 폭약 4톤을 저장할 때의 제1종 보안 물건과의 보안거리는?\n\n보기:\n  A) 470m 이상\n  B) 440m 이상\n  C) 260m 이상\n  D) 170m 이상",
+    "category": "public_safety",
+    "supercategory": "Other",
+    "subset": "Public-Safety",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 3,
+    "human_accuracy": 0.1429,
+    "original_data": {
+      "question": "화약류 1급 저장소에 폭약 4톤을 저장할 때의 제1종 보안 물건과의 보안거리는?",
+      "choices": [
+        "470m 이상",
+        "440m 이상",
+        "260m 이상",
+        "170m 이상"
+      ]
+    }
+  },
+  {
+    "id": 74,
+    "question": "연결 송수관설비가 설치되는 아파트에 방수기구함의 사용 범위에서 제외될 수 있는 층은?\n\n보기:\n  A) 옥내소화전함이 있는 층\n  B) 아파트 2층\n  C) 최상층\n  D) 10층 이하층",
+    "category": "public_safety",
+    "supercategory": "Other",
+    "subset": "Public-Safety",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.3333,
+    "original_data": {
+      "question": "연결 송수관설비가 설치되는 아파트에 방수기구함의 사용 범위에서 제외될 수 있는 층은?",
+      "choices": [
+        "옥내소화전함이 있는 층",
+        "아파트 2층",
+        "최상층",
+        "10층 이하층"
+      ]
+    }
+  },
+  {
+    "id": 75,
+    "question": "소방법상 농황산이란 비중 얼마이상을 말하나?\n\n보기:\n  A) 1.49\n  B) 1.82\n  C) 1.92\n  D) 2",
+    "category": "public_safety",
+    "supercategory": "Other",
+    "subset": "Public-Safety",
+    "source": "HAERAE-HUB/KMMLU",
+    "answer": 2,
+    "human_accuracy": 0.2,
+    "original_data": {
+      "question": "소방법상 농황산이란 비중 얼마이상을 말하나?",
+      "choices": [
+        "1.49",
+        "1.82",
+        "1.92",
+        "2"
+      ]
+    }
+  }
+]

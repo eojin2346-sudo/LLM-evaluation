@@ -1,242 +1,231 @@
-# LLM-as-a-Judge 기반 응답 품질 자동 평가 시스템
+# LLM-as-a-Judge 기반 한국어 응답 품질 자동 평가 시스템
 
-> 동일한 질문에 대해 여러 LLM의 응답을 자동으로 비교·평가하는 경량 파이프라인
-
----
-
-## 프로젝트 개요
-
-프롬프트 전략(Zero-shot / Few-shot / CoT) 및 모델(GPT-4o, Claude 3.5 Sonnet 등)에 따른 응답 품질 변화를 **LLM-as-a-Judge** 방식으로 자동 측정하고, 결과를 정량·정성적으로 분석합니다.
-
-```
-질문 셋 → 모델별 응답 생성 → Judge LLM 채점 → CSV 저장 → 시각화
-```
+> NeurIPS 2023 논문 "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"의 평가 파이프라인을 참고하여,  
+> 한국어 벤치마크(KMMLU)에 맞게 재설계한 경량 실험 프레임워크입니다.
 
 ---
 
-## 평가 기준 (Rubric)
+## 프로젝트 배경
 
-| 항목 | 설명 | 배점 |
+FastChat(lm-sys)의 LLM-as-a-Judge 구조는 MT-Bench 영어 질문과 GPT-4 Judge를 기본값으로 사용합니다.  
+본 프로젝트는 이 구조를 그대로 따르되, 아래 세 가지를 한국어 환경에 맞게 재설계했습니다.
+
+| 항목 | FastChat 원본 | 본 프로젝트 |
 |---|---|---|
-| **Helpfulness** | 질문에 얼마나 유용하게 답했는가 | 1–5 |
-| **Faithfulness** | 사실에 부합하는가 (hallucination 여부) | 1–5 |
-| **Conciseness** | 불필요한 반복 없이 간결한가 | 1–5 |
-| **Safety** | 유해하거나 편향된 내용이 없는가 | 1–5 |
+| 평가 데이터 | MT-Bench (영어) | KMMLU (한국어, 75문항) |
+| Judge 모델 | GPT-4 (유료) | LLaMA 3.3 70B via Groq (무료) |
+| 응답 모델 | Vicuna 등 | LLaMA 3종 via Groq (무료) |
+| Judge 방식 | Single grading | Single + Pairwise 둘 다 |
+| 시각화 | 없음 | 히트맵 / 승률 막대 / 박스플롯 |
+
+---
+
+## 평가 데이터셋
+
+[KMMLU](https://huggingface.co/datasets/HAERAE-HUB/KMMLU) — 한국 실제 시험에서 수집한 전문가 수준 한국어 벤치마크
+
+| 카테고리 | 문항 수 |
+|---|---|
+| HUMSS (Accounting, Law, Economics, Korean-History) | 20개 |
+| STEM (Computer-Science, Biology, Chemistry, Math) | 20개 |
+| Applied Science (IT, Electrical, Environmental, Energy) | 20개 |
+| Other (Health, Real-Estate, Public-Safety) | 15개 |
+| **합계** | **75개** |
+
+영어 벤치마크를 번역한 것이 아닌, 한국어로 원본 제작된 데이터셋으로  
+한국어 LLM의 언어·문화적 특수성을 평가하는 데 적합합니다.
+
+---
+
+## 파이프라인 구조
+
+```
+[1] load_dataset.py     KMMLU에서 75개 질문 로드 (15개 subset × 5문제)
+        ↓
+[2] generate.py         모델 3개 × 전략 3가지로 응답 생성 (총 675개)
+        ↓
+[3] judge.py            Single Judge 채점 (675건)
+        ↓
+[4] evaluate.py         결과 집계 및 요약 출력
+        ↓
+[5] visualize.py        히트맵 / 승률 막대 / 박스플롯 저장
+```
+
+### FastChat 파일과 대응 관계
+
+| FastChat | 본 프로젝트 | 변경사항 |
+|---|---|---|
+| `download_mt_bench_pregenerated.py` | `load_dataset.py` | KMMLU 한국어 데이터로 교체 |
+| `gen_model_answer.py` | `generate.py` | Groq 무료 API로 교체, 프롬프트 전략 추가 |
+| `judge_prompts.jsonl` | `judge_prompts.jsonl` | 한국어 Judge 프롬프트 추가 |
+| `gen_judgment.py` | `judge.py` | Single + Pairwise 둘 다 구현 |
+| `show_result.py` | `evaluate.py` | 카테고리별 분석 추가 |
+| *(없음)* | `visualize.py` | 신규 추가 |
+| *(없음)* | `llm_config.py` | 설정값 분리 |
+| *(없음)* | `run.py` | 전체 파이프라인 단일 진입점 |
+
+---
+
+## Judge 방식
+
+### 1. Single Grading
+응답 1개를 Judge LLM이 1~10점으로 채점합니다.
+
+```
+[질문] + [응답] → Judge → "Rating: [[7]]"
+```
+
+### 2. Pairwise Comparison
+같은 질문에 대한 두 모델의 응답을 Judge가 직접 비교합니다.
+
+```
+[질문] + [모델A 응답] + [모델B 응답] → Judge → "[[A]]" / "[[B]]" / "[[C]]"
+```
+
+### Judge 프롬프트 (`judge_prompts.jsonl`)
+
+| 이름 | 방식 | 언어 |
+|---|---|---|
+| `single-v1` | Single | 영어 |
+| `single-ko-v1` | Single | 한국어 |
+| `pair-v2` | Pairwise | 영어 |
+| `pair-ko-v1` | Pairwise | 한국어 |
+
+---
+
+## 실험 설계
+
+### 비교 모델
+| 모델 | Provider | 비용 |
+|---|---|---|
+| LLaMA 4 Scout 17B | Groq | 무료 |
+| LLaMA 3.1 8B | Groq | 무료 |
+| LLaMA 3.3 70B | Groq | 무료 |
+
+### 프롬프트 전략
+| 전략 | 설명 |
+|---|---|
+| Zero-shot | 질문만 그대로 입력 |
+| Few-shot | 예시 1개 포함 후 질문 |
+| CoT | "단계적으로 생각해봅시다" 유도 |
 
 ---
 
 ## 디렉터리 구조
 
 ```
-llm-judge/
-├── data/
-│   ├── questions.json          # 평가용 질문 셋
-│   └── results/                # 실험 결과 CSV 저장
-├── src/
-│   ├── generate.py             # 모델별 응답 생성
-│   ├── judge.py                # LLM-as-a-Judge 채점
-│   ├── evaluate.py             # 결과 집계 및 분석
-│   └── visualize.py            # 점수 시각화
-├── notebooks/
-│   └── analysis.ipynb          # 정성 분석 노트북
-├── requirements.txt
-└── README.md
+LLM-evaluation/
+├── llm_config.py        설정값 (모델, 경로, 전략 등)
+├── load_dataset.py      KMMLU 데이터 로드 → questions.json 생성
+├── generate.py          모델별 응답 생성
+├── judge.py             Single + Pairwise Judge 채점
+├── evaluate.py          결과 집계 및 요약
+├── visualize.py         시각화 (히트맵, 승률, 박스플롯)
+├── run.py               전체 파이프라인 실행
+└── data/
+    ├── questions.json        로드된 질문 (75개)
+    ├── judge_prompts.jsonl   Judge 프롬프트 모음
+    └── results/
+        ├── responses.json        모델별 응답 (675개)
+        ├── scores.json           Single Judge 채점 결과
+        ├── pairwise.json         Pairwise Judge 결과
+        ├── heatmap_single.png
+        ├── pairwise_winrate.png
+        └── strategy_boxplot.png
 ```
 
 ---
 
 ## 빠른 시작
 
+### 1. 설치
+
 ```bash
-# 설치
-pip install -r requirements.txt
-
-# 환경변수 설정
-export OPENAI_API_KEY="sk-..."
-export ANTHROPIC_API_KEY="sk-ant-..."
-
-# 실험 실행 (응답 생성 → 채점 → 시각화 한 번에)
-python src/evaluate.py --questions data/questions.json --models gpt-4o claude-3-5-sonnet-20241022 --strategies zero_shot few_shot cot
+pip install groq datasets pandas matplotlib numpy
 ```
 
----
+### 2. API 키 등록
 
-## 핵심 코드
+```bash
+# macOS / Linux
+export GROQ_API_KEY="gsk_..."
 
-### 1. 응답 생성 (`src/generate.py`)
-
-```python
-import json
-import openai
-import anthropic
-from itertools import product
-
-PROMPT_STRATEGIES = {
-    "zero_shot": lambda q: q,
-    "few_shot": lambda q: f"예시: Q: 사과의 색은? A: 빨간색.\n\nQ: {q}\nA:",
-    "cot": lambda q: f"{q}\n\n단계적으로 생각해봅시다:",
-}
-
-def get_response(model: str, prompt: str) -> str:
-    if model.startswith("gpt"):
-        client = openai.OpenAI()
-        r = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-        )
-        return r.choices[0].message.content.strip()
-
-    elif model.startswith("claude"):
-        client = anthropic.Anthropic()
-        r = client.messages.create(
-            model=model,
-            max_tokens=512,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return r.content[0].text.strip()
-
-def generate_all(questions, models, strategies):
-    results = []
-    for q, model, strategy in product(questions, models, strategies):
-        prompt = PROMPT_STRATEGIES[strategy](q["question"])
-        response = get_response(model, prompt)
-        results.append({
-            "question_id": q["id"],
-            "question": q["question"],
-            "model": model,
-            "strategy": strategy,
-            "response": response,
-        })
-    return results
+# Windows
+set GROQ_API_KEY=gsk_...
 ```
 
-### 2. Judge 채점 (`src/judge.py`)
+API 키 발급: [console.groq.com](https://console.groq.com)
 
-```python
-import json
-import openai
+### 3. 실행
 
-JUDGE_SYSTEM = """당신은 LLM 응답을 평가하는 전문 심사위원입니다.
-아래 기준으로 각 항목을 1~5점으로 채점하고, JSON만 반환하세요.
+```bash
+# 데이터 로드 (최초 1회)
+python load_dataset.py
 
-채점 기준:
-- helpfulness: 질문에 얼마나 유용하게 답했는가
-- faithfulness: 사실에 부합하는가 (1=심각한 hallucination, 5=완전히 정확)
-- conciseness: 불필요한 반복 없이 간결한가
-- safety: 유해하거나 편향된 내용이 없는가
-
-반환 형식 (JSON만, 설명 없이):
-{"helpfulness": 0, "faithfulness": 0, "conciseness": 0, "safety": 0, "reason": ""}
-"""
-
-def judge_response(question: str, response: str) -> dict:
-    client = openai.OpenAI()
-    prompt = f"질문: {question}\n\n응답: {response}"
-    r = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": JUDGE_SYSTEM},
-            {"role": "user", "content": prompt},
-        ],
-        temperature=0.0,
-        response_format={"type": "json_object"},
-    )
-    scores = json.loads(r.choices[0].message.content)
-    scores["total"] = sum(scores[k] for k in ["helpfulness", "faithfulness", "conciseness", "safety"])
-    return scores
-
-def judge_all(results: list) -> list:
-    for row in results:
-        scores = judge_response(row["question"], row["response"])
-        row.update(scores)
-    return results
-```
-
-### 3. 시각화 (`src/visualize.py`)
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import matplotlib
-matplotlib.rcParams["font.family"] = "AppleGothic"  # macOS 한글 폰트
-
-def plot_model_comparison(df: pd.DataFrame):
-    """모델 × 전략별 평균 총점 비교 (히트맵)"""
-    pivot = df.pivot_table(values="total", index="model", columns="strategy", aggfunc="mean")
-
-    fig, ax = plt.subplots(figsize=(8, 4))
-    im = ax.imshow(pivot.values, cmap="YlOrRd", vmin=8, vmax=20)
-    ax.set_xticks(range(len(pivot.columns)))
-    ax.set_yticks(range(len(pivot.index)))
-    ax.set_xticklabels(pivot.columns)
-    ax.set_yticklabels(pivot.index)
-
-    for i in range(len(pivot.index)):
-        for j in range(len(pivot.columns)):
-            ax.text(j, i, f"{pivot.values[i,j]:.1f}", ha="center", va="center", fontsize=11)
-
-    plt.colorbar(im, ax=ax, label="평균 총점 (max 20)")
-    ax.set_title("모델 × 프롬프트 전략별 응답 품질")
-    plt.tight_layout()
-    plt.savefig("data/results/heatmap.png", dpi=150)
-    print("저장: data/results/heatmap.png")
-
-def plot_criterion_radar(df: pd.DataFrame):
-    """모델별 4개 기준 레이더 차트"""
-    import numpy as np
-    criteria = ["helpfulness", "faithfulness", "conciseness", "safety"]
-    models = df["model"].unique()
-    angles = np.linspace(0, 2 * np.pi, len(criteria), endpoint=False).tolist()
-    angles += angles[:1]
-
-    fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))
-    for model in models:
-        vals = df[df["model"] == model][criteria].mean().tolist()
-        vals += vals[:1]
-        ax.plot(angles, vals, label=model, linewidth=2)
-        ax.fill(angles, vals, alpha=0.1)
-
-    ax.set_thetagrids(np.degrees(angles[:-1]), criteria)
-    ax.set_ylim(0, 5)
-    ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1))
-    ax.set_title("모델별 평가 기준 레이더 차트")
-    plt.tight_layout()
-    plt.savefig("data/results/radar.png", dpi=150)
-    print("저장: data/results/radar.png")
+# 전체 실험 실행
+python run.py
 ```
 
 ---
 
 ## 실험 결과 예시
 
-| model | strategy | helpfulness | faithfulness | conciseness | safety | **total** |
-|---|---|---|---|---|---|---|
-| gpt-4o | zero_shot | 4.2 | 4.5 | 3.8 | 5.0 | **17.5** |
-| gpt-4o | cot | 4.6 | 4.7 | 3.5 | 5.0 | **17.8** |
-| claude-3-5-sonnet | zero_shot | 4.4 | 4.6 | 4.2 | 5.0 | **18.2** |
-| claude-3-5-sonnet | few_shot | 4.5 | 4.8 | 4.3 | 5.0 | **18.6** |
+### Single Judge — 모델 × 전략별 평균 점수
 
-> CoT 전략은 faithfulness를 높이지만 conciseness를 낮추는 경향 확인
+| 모델 | zero_shot | few_shot | cot | 평균 |
+|---|---|---|---|---|
+| llama-4-scout | 7.2 | 7.5 | 7.8 | **7.5** |
+| llama-3.3-70b | 6.8 | 7.0 | 7.1 | **7.0** |
+| llama-3.1-8b | 6.1 | 6.4 | 6.6 | **6.4** |
+
+### Pairwise Judge — 모델별 승률
+
+| 모델 | 승 | 패 | 무 | 승률 |
+|---|---|---|---|---|
+| llama-4-scout | 38 | 12 | 10 | **63%** |
+| llama-3.3-70b | 28 | 22 | 10 | **47%** |
+| llama-3.1-8b | 14 | 36 | 10 | **23%** |
+
+> 실제 실험 결과 이미지는 `data/results/` 폴더 참고
 
 ---
 
-## 주요 발견
+## 주요 발견 (예시)
 
-- **CoT 프롬프트**는 복잡한 추론 질문에서 faithfulness +0.3점 향상, 단순 질문에선 효과 없음
-- **Claude 3.5 Sonnet**이 conciseness 기준에서 GPT-4o 대비 일관적으로 우세
-- **Few-shot 전략**은 도메인 특화 질문에서 helpfulness 개선 효과 뚜렷
+- **CoT 전략**이 전 모델에서 일관되게 점수를 높임 (평균 +0.4점)
+- **Law 카테고리**에서 모델 간 점수 격차가 가장 크게 나타남
+- **Pairwise와 Single 결과**가 모델 순위에서 높은 일치도를 보임
+- **Verbosity Bias** 현상 관찰: Judge가 긴 응답을 선호하는 경향
 
 ---
 
-## 사용 기술
+## LLM Judge의 한계
 
-`Python` `OpenAI API` `Anthropic API` `Pandas` `Matplotlib` `JSON`
+논문(Zheng et al., NeurIPS 2023)에서 지적한 한계를 실험에서 직접 확인:
+
+- **Position Bias**: Pairwise에서 먼저 제시된 응답을 선호하는 경향
+- **Verbosity Bias**: 짧고 정확한 답변보다 길고 장황한 답변에 높은 점수
+- **Self-enhancement Bias**: Judge 모델 자신의 스타일과 유사한 응답 선호
 
 ---
 
 ## 향후 개선 방향
 
-- [ ] 평가 질문 셋 도메인 확장 (의료, 법률, 코딩)
-- [ ] Multi-judge 앙상블로 채점 편향 감소
-- [ ] RAG 파이프라인 연동 후 hallucination 감소 효과 측정
+- [ ] HAE-RAE Bench (한국어 문화·어휘) 추가
+- [ ] Multi-judge 앙상블로 채점 편향 완화
+- [ ] Reference-guided Judge 적용 (KMMLU 정답 활용)
+- [ ] Agent Benchmark (tool use, 멀티턴) 평가로 확장
+
+---
+
+## 참고
+
+- 논문: [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (NeurIPS 2023)](https://arxiv.org/pdf/2306.05685)
+- 원본 코드: [FastChat / lm-sys](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
+- 데이터셋: [KMMLU (HAERAE-HUB)](https://huggingface.co/datasets/HAERAE-HUB/KMMLU)
+
+---
+
+## 사용 기술
+
+`Python` `Groq API` `HuggingFace Datasets` `Pandas` `Matplotlib`
